@@ -7,7 +7,7 @@ exports.help = {
 
   process: function(bot, msg) {
     msg.reply("Sending help...");
-    msg.author.send("**:fox: Available Commands: :fox:**").then(function(){
+    msg.author.send("** Available Commands: **").then(function(){
       var batch = "";
       var dbot = require("../../bot.js");
       var config = require('../../config.json');
