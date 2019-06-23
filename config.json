@@ -1,6 +1,6 @@
 {
-  "token": "<discord api token>",
-  "client_id": "<bot client id>",
+  "token": "NTY2MTM3ODM4NzQ4MzAzMzcw.XQ8ytw.hpbhzNOEkX5wpDzynTKFSOcx3Xo",
+  "client_id": "566137838748303370",
   "youtube_api_key": "<youtube api key>",
   "prefix": ".",
   "game": "<playing status on discord>",
@@ -12,10 +12,10 @@
 
   "welcome": {
       "enabled": true,
-      "message": "Welcome {user} to {server} :fox:",
+      "message": "Welcome {user} to {server}",
       "add_role": {
-        "enabled": false,
-        "role": "default"
+        "enabled": true,
+        "role": "member"
       }
   },
 
